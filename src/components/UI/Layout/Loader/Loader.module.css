@@ -1,0 +1,11 @@
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.loading h6{
+   color: var(--LightPurple);
+   font-size: 1.4rem;
+}

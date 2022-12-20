@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #291b31;
+}
+.scrollIconContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+.ScrollIcon{
+    color: var(--opacityWhite);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.ScrollIcon:hover{
+    color: var(--violetPink);
+}
+.topSection{  
+    height: auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1rem;   
+}
+.bottomSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-top: 1px solid rgba(255, 255, 255, 0.137);
+    background-color: #1d1624;
+}
+.bottomSection p{
+    color: var(--opacityWhite);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+.box{
+    width: 300px;
+    height: 450px;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column; 
+    /* background-color: cadetblue; */
+}
+.box h1{
+    color: #fff;
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.box ul li{
+    margin-bottom: 1.5rem;
+    list-style: none;
+    font-size: 1rem;
+}
+.box ul li a{
+    color: var(--opacityWhite);
+} 
+.box ul li a:hover{
+    color: var(--violetPink);
+} 
+.iconContainer{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.iconContainer span:hover{
+    transition: all 0.2s ease-in-out;
+    color: var(--violetPink);
+}
+.Span{
+    color: var(--opacityWhite);
+    margin: 1rem 0;
+}
+.Span p{
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+    .topSection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .box ul li{
+        margin-bottom: 0.5rem;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        padding: 1rem 1rem; 
+    }
+    .box h1{
+        margin-bottom: 1.5rem;             
+    }
+    .iconContainer{
+        margin-top: 0.5rem;       
+    }
+    .Span{
+        margin: 0.5rem 0;
+    }    
+}
+
+

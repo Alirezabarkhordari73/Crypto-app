@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Lato:wght@300;400&family=Lora&family=Open+Sans:wght@400;500&family=Oswald:wght@300;500&family=Poppins:wght@100;300;400&family=Roboto:wght@100;400&family=Source+Sans+Pro&display=swap');
+:root{
+    --mainGold: #e6ba28;
+    --mainPurple : #291635ee;
+    --LightPurple : #9c4dceee;
+    --violetPink : #db7ed2;
+    --violetPurpleOpacity : #db7ed236;
+    --pink : #ffd4fb;
+    --darkPurple :#28202eee;
+    --opacityWhite : rgba(255, 255, 255, 0.397);
+}
+a{
+    color: rgba(255, 255, 255, 0.757);
+    list-style: none;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.ant-spin-dot{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    width: 2em;
+    height: 2em;
+} 
+.ant-spin-dot-item{
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #9c4dceee;
+    border-radius: 100%;
+    transform: scale(0.75);
+    transform-origin: 50% 50%;
+    opacity: 0.3;
+    -webkit-animation: antSpinMove 1s infinite linear alternate;
+    animation: antSpinMove 1s infinite linear alternate;
+}
+.anticon-apple{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #db7ed2;
+}
+.anticon-mac-command{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(187, 180, 113);
+}
+.anticon-windows{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;color: rgb(128, 219, 255);
+}
+.anticon-android{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(118, 179, 90);
+}
+

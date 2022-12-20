@@ -1,0 +1,25 @@
+.container{
+    padding: 2rem 1rem;
+}
+.chartheader{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: #0071bd;
+}
+.charttitle{
+    color: #0071bd !important;
+}
+.pricecontainer{
+    display: flex !important;
+    gap: 20px !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+}
+.pricechange{
+    font-weight: 900 !important;
+}
+.currentprice{
+    margin-top: 0px !important;
+    font-weight: 900 !important;
+}

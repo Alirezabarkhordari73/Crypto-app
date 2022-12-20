@@ -1,0 +1,35 @@
+.chartContainer{
+    display: flex;
+    padding: 1rem 1rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 290px;
+    height: 190px;
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 1rem;
+}
+.coinName{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+.coinprice{
+    color: rgb(94, 179, 77);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chartBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
