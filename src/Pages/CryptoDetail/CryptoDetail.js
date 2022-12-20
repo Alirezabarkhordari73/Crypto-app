@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useLayoutEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import HTMLReactParser from "html-react-parser";
 import { Typography, Select, Row, Col, Alert } from "antd";
 import {
   MoneyCollectOutlined,

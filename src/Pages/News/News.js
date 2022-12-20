@@ -1,15 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  Row,
-  Col,
-  Typography,
-  Card,
-  Alert,
-  Avatar,
-  Select,
-  Option,
-} from "antd";
+import { Row, Col, Typography, Card, Alert, Avatar, Select } from "antd";
 import moment from "moment";
 
 import classes from "./News.module.css";

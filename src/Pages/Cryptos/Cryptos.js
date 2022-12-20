@@ -1,16 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import {
-  Typography,
-  Row,
-  Col,
-  Statistic,
-  Alert,
-  Spin,
-  Card,
-  Input,
-} from "antd";
+import { Typography, Row, Col, Statistic, Alert, Card, Input } from "antd";
 import millify from "millify";
 import "antd/dist/antd.css";
 

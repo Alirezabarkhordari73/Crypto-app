@@ -9,7 +9,6 @@ import HeaderChart from "../HeaderChart/HeaderChart";
 import { fetchCoins } from "../../Redux/Features/coinsSlice";
 
 const Header = () => {
-  const [coinsData, setCoinsData] = useState();
   const dispatch = useDispatch();
 
   const [isScroll, setIsScroll] = useState(false);

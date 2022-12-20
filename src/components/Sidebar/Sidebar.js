@@ -7,7 +7,6 @@ import classes from "./Sidebar.module.css";
 import {
   HomeOutlined,
   FundOutlined,
-  MoneyCollectOutlined,
   BulbOutlined,
   CloseOutlined,
 } from "@ant-design/icons";

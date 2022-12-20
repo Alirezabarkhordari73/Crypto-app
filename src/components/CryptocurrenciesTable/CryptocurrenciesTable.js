@@ -1,7 +1,7 @@
 import React from "react";
 
 import "antd/dist/antd.css";
-import { Space, Table } from "antd";
+import { Table } from "antd";
 import classes from "./cryptocurrenciesTable.module.css";
 
 const CryptocurrenciesTable = ({ coinsData }) => {
