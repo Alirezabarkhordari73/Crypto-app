@@ -46,7 +46,7 @@ const HomePage = () => {
         {!Loading && <CryptocurrenciesTable coinsData={coinsList} />}
         <div className={classes.boxContainer}>
           <div className={classes.Box}>
-            <img className={classes.image} src={image1} alt="image-1" />
+            <img className={classes.image} src={image1} alt="p-1" />
             <h1>Safe and secure</h1>
             <p>
               It uses a dictionary of over 200 Latin words, combined with a
@@ -55,7 +55,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className={classes.Box}>
-            <img className={classes.image} src={image2} alt="image-1" />
+            <img className={classes.image} src={image2} alt="p-1" />
             <h1>High Exchange Limits</h1>
             <p>
               It uses a dictionary of over 200 Latin words, combined with a
@@ -64,7 +64,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className={classes.Box}>
-            <img className={classes.image} src={image3} alt="image-1" />
+            <img className={classes.image} src={image3} alt="p-1" />
             <h1>High Exchange Limits</h1>
             <p>
               It uses a dictionary of over 200 Latin words, combined with a
@@ -73,7 +73,7 @@ const HomePage = () => {
             </p>
           </div>
           <div className={classes.Box}>
-            <img className={classes.image} src={image4} alt="image-1" />
+            <img className={classes.image} src={image4} alt="p-1" />
             <h1>Fast and Reliable</h1>
             <p>
               It uses a dictionary of over 200 Latin words, combined with a
@@ -83,7 +83,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className={classes.downloadContainer}>
-          <img src={image5} />
+          <img src={image5} alt="p" />
           <p>Fully compatible with iOS, Android, Mac & Windows</p>
           <span className={classes.text}>Select one & Download</span>
           <div className={classes.iconsContainer}>
